@@ -17,7 +17,7 @@ section{
 }
 
 .navbar a:hover{
-    color: #487FD1
+    color: #06FCB2
 }
 
 .navbar-brand{
@@ -34,18 +34,18 @@ p{
 }
 
 .theme{
-    color: #487FD1;
+    color: #06FCB2;
 }
 
 .btn-success{
-    background: #487FD1;
+    background: #06FCB2;
     color: #000;
     font-weight: 700;
     padding: 10px 20px;
 }
 
 .wallet p{
-    color: #487FD1;
+    color: #06FCB2;
     font-size: 15px;;
 }
 
