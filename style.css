@@ -9,7 +9,7 @@ section{
 
 .navbar a{
     color: #fff;
-    text-decoration::none !important;
+    text-decoration:none !important;
 }
 
 .navbar a:hover{
