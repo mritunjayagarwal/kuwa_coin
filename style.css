@@ -58,3 +58,16 @@ p{
     font-size: 15px;
 }
 
+.getstarted:nth-child(odd){
+    margin-left: 20%;
+    border-right: 2px solid #DC1FFF;
+}
+.getstarted:nth-child(even){
+    margin-right: 20%;
+    border-left: 2px solid #DC1FFF;
+}
+
+.getstarted h2{
+    font-weight: 700;
+}
+
