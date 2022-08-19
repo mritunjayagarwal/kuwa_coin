@@ -1,0 +1,28 @@
+*{
+    background: #000000;
+    color: #fff;
+}
+
+section{
+    padding: 100px 0 0 0;
+}
+
+.navbar a{
+    color: #fff
+}
+
+.navbar-brand{
+    font-weight: 600
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.theme{
+    color: #06FCB2;
+}
