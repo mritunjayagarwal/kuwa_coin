@@ -1,7 +1,7 @@
 body{
     background: #1C1B24;
     color: #fff;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     scroll-behavior: smooth !important;
 }
 
@@ -183,10 +183,6 @@ p{
     .uni-btn{
         margin-top: 10px !important;
         width: 100%;
-    }
-
-    html,body{
-        overflow-x: hidden;
     }
   }
 
