@@ -159,6 +159,10 @@ p{
     width: 80%;
   }
 
+  .img-am{
+    width: 80px; height: 80px;
+  }
+
   @media only screen and (max-width: 991px) {
     .logo-img{
         width: 200px;
@@ -196,5 +200,10 @@ p{
 
     .mob-center{
         text-align: center;
+    }
+
+    .img-am{
+        width: 120px;
+        height: 120px;
     }
   }
