@@ -184,11 +184,6 @@ p{
         margin-top: 10px !important;
         width: 100%;
     }
-
-    html, body{
-        overflow-x: hidden;
-        scroll-behavior: smooth;
-    }
   }
 
 
