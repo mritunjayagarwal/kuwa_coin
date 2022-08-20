@@ -72,46 +72,32 @@ p{
     font-weight: 700;
 }
 
-header {
-    background: linear-gradient(253deg, #DC1FFF, #1797d2, #864fe1);
-    background-size: 300% 300%;
-    -webkit-animation: Background 5s ease infinite;
-    -moz-animation: Background 5s ease infinite;
-    animation: Background 5s ease infinite;
+.bg {
+    animation:slide 1s ease-in-out;
+    background-image: linear-gradient(60deg, #000 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:absolute;
+    right:-50%;
+    top:0;
+    z-index:-1;
   }
   
-  @-webkit-keyframes Background {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
-    }
+  /* .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:24s;
   }
+   */
+  /* .bg3 {
+    animation-duration:25s;
+  } */
   
-  @-moz-keyframes Background {
+  @keyframes slide {
     0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
+      transform:translateX(-25%);
     }
     100% {
-      background-position: 0% 50%
-    }
-  }
-  
-  @keyframes Background {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
+      transform:translateX(0%);
     }
   }
