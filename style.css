@@ -36,7 +36,8 @@ h1{
 }
 
 p{
-    font-size: 22px;
+    color: grey;
+    font-size: 18px;
 }
 
 .theme{
@@ -110,4 +111,5 @@ p{
   .btn{
       background: linear-gradient(90deg, #FFA500, #D18525);
       color: #fff;
+      border: none;
   }
