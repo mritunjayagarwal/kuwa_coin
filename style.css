@@ -1,8 +1,7 @@
-html, body{
+body{
     background: #1C1B24;
     color: #fff;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 .container{
@@ -125,6 +124,7 @@ p{
       color: #FFA500
   }
 
+  
   .uni-btn{
       color: #fff;
       background: transparent;
