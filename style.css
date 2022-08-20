@@ -1,6 +1,7 @@
 body{
     background: #000000;
     color: #fff;
+    overflow-x: hidden;
 }
 
 section{
@@ -71,3 +72,46 @@ p{
     font-weight: 700;
 }
 
+header {
+    background: linear-gradient(253deg, #DC1FFF, #1797d2, #864fe1);
+    background-size: 300% 300%;
+    -webkit-animation: Background 5s ease infinite;
+    -moz-animation: Background 5s ease infinite;
+    animation: Background 5s ease infinite;
+  }
+  
+  @-webkit-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
