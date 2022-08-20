@@ -123,3 +123,24 @@ p{
   .footer-ul:hover{
       color: #FFA500
   }
+
+  .uni-btn{
+      color: #fff;
+      background: transparent;
+      border: 2px solid #FFA500;
+  }
+
+  .uni-btn {
+    border-radius: 3px;
+    display: block;
+  
+    background: linear-gradient(to right, #FFA500 50%, #1C1B24 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+  }
+  
+  .uni-btn:hover {
+    background-position: left bottom;
+    color: #fff
+  }
