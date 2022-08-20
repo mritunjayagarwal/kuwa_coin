@@ -1,7 +1,12 @@
 body{
-    background: #000000;
+    background: #1C1B24;
     color: #fff;
     overflow-x: hidden;
+}
+
+.container{
+    min-width: 80%;
+    margin: 0 auto;
 }
 
 section{
@@ -18,7 +23,7 @@ section{
 }
 
 .navbar a:hover{
-    color: #06FCB2
+    color: #CF7F19
 }
 
 .navbar-brand{
@@ -35,18 +40,18 @@ p{
 }
 
 .theme{
-    color: #06FCB2;
+    color: #CF7F19;
 }
 
 .btn-success{
-    background: #06FCB2;
+    background: #CF7F19;
     color: #000;
     font-weight: 700;
     padding: 10px 20px;
 }
 
 .wallet p{
-    color: #06FCB2;
+    color: #CF7F19;
     font-size: 15px;;
 }
 
@@ -61,11 +66,11 @@ p{
 
 .getstarted:nth-child(odd){
     margin-left: 20%;
-    border-right: 2px solid #06FCB2;
+    border-right: 2px solid #CF7F19;
 }
 .getstarted:nth-child(even){
     margin-right: 20%;
-    border-left: 2px solid #06FCB2;
+    border-left: 2px solid #CF7F19;
 }
 
 .getstarted h2{
@@ -74,7 +79,7 @@ p{
 
 .bg {
     animation:slide 1s ease-in-out;
-    background-image: linear-gradient(60deg, #181818 50%, #000 50%);
+    background-image: linear-gradient(60deg, #1C1B24 50%, #121212 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -100,4 +105,9 @@ p{
     100% {
       transform:translateX(0%);
     }
+  }
+
+  .btn{
+      background: linear-gradient(90deg, #CF7F19, #D18525);
+      color: #fff;
   }
